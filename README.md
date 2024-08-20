@@ -12,5 +12,12 @@ The project is made followig these steps:
 * Collecting Posts url from a public facebook page.
 * Iterate over these posts and collect related data.
 * Feature engineering ( converting numerical likes and comments into rates 1->10)
-* Building and training the Model.
+* Building and training the Model. ' Yet to come'
+
   
+  
+## How to make use of this project
+As mentiond before this project is for training purposes, The code is not clean and has a lot of cells that are just for testing, but it has alot of documentation. so, it will not be too hard to read and understand. The following steps is are the Keys to understand and make a use of this project:
+
+* [a  relative link](https://github.com/abdulaziz-snobra/Facebook_posts_interactions_NLP_Model/blob/main/Posts_links.ipynb) Is the first thing to do, this code you could useit to collect posts URLs. Using facebook page url, and number of scrolls you will find evrything works easy.
+  **_NOTE:_**  To scrape page posts, the scaper scrolls down the page and collects URLs. So, increasing number of scrolls increasing posts URLs.
